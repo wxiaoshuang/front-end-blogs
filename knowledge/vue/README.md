@@ -1,3 +1,11 @@
+# Vue
+## 什么是MVVM,如何实现一个简易的MVVM
+MVVM是Model-View-ViewModel的缩写,　MVVM 由 Model、View、ViewModel 三部分构成，Model 层代表数据模型，也可以在Model中定义数据修改和操作的业务逻辑；View 代表UI，它负责将数据模型转化成UI展现出来，ViewModel 是一个同步View 和 Model的对象
+## 如何实现响应式
+```javascript
+```
+## 模板和指令是怎么解析的
+## 模板渲染
 # 模拟vue实现一个简易的MVVM框架
 >思路，使用Object.defineProperty劫持属性，在get的时候收集依赖，在set的时候触发依赖
 ```javascript
